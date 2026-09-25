@@ -6,7 +6,7 @@ import { Navigation } from "@/components/sections/Navigation";
 import { Footer } from "@/components/sections/Footer";
 import { Container } from "@/components/ui-lab/Container";
 import { SectionLabel } from "@/components/ui-lab/CTA";
-import { siteContent } from "@/app/data/content";
+import { siteContent } from "@/app/_data/content";
 
 export default function ResearchPage() {
   const { research } = siteContent;

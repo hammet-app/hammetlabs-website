@@ -46,7 +46,7 @@ export const siteContent = {
         description:
           "Hammet teaches secondary school students in Nigeria how to think with, work with, and reason about AI, safely and confidently.",
         audience: "For secondary school students in Nigeria",
-        href: "https://hammet.hammetlabs.com",
+        href: "https://hammetedu.com",
         cta: "Learn more about Hammet",
         available: true,
       },
