@@ -2,14 +2,11 @@
 
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { Navigation } from "@/components/sections/Navigation";
-import { Footer } from "@/components/sections/Footer";
 import { Container } from "@/components/ui-lab/Container";
 
 export default function RSPPage() {
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <Navigation />
       <main className="flex min-h-screen items-center">
         <Container>
           <motion.div
@@ -52,7 +49,6 @@ export default function RSPPage() {
           </motion.div>
         </Container>
       </main>
-      <Footer />
     </div>
   );
 }
