@@ -673,7 +673,7 @@ export default function Home() {
 
           <div className="mt-16 grid gap-5 md:grid-cols-3">
             {[
-              ["Engr. Prince Obinna", "CEO & Co-founder"],
+              ["Prince Obinna (MBA)", "CEO & Co-founder"],
               ["Angel Nwafor", "CPO & Co-founder"],
               ["Oluebube Okafor", "CTO & Co-founder"],
             ].map(([name, role]) => (
@@ -713,7 +713,7 @@ export default function Home() {
               </p>
 
               <a
-                href="mailto:hello@hammetlabs.com"
+                href="mailto:admin@hammetlabs.com"
                 className="group mt-9 inline-flex items-center gap-3 rounded-full bg-[#19C3D6] px-6 py-3.5 text-sm font-semibold text-[#24123F] transition-transform hover:-translate-y-0.5"
               >
                 Start a conversation
